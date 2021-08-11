@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { SiCashapp } from "react-icons/si";
+
 
 export const Header = () => {
     return (
         <h2>
-          Expense Tracker
+          <SiCashapp /> E - Tracker
         </h2>
     )
 }
